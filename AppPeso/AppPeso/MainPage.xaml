@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppPeso.MainPage"
+             Background="#112B47">
+
+    <ContentPage.Content>
+        <Grid RowSpacing="{OnPlatform iOS=20, Android=20}">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <StackLayout Grid.Row="1" HorizontalOptions="Center"  Orientation="Vertical">
+                <Label
+                    Text="Ingresar"
+                    TextColor="Gray"
+                    FontSize="{OnPlatform Android=25,iOS=23}"
+                    WidthRequest="300"
+                    FontAttributes="Bold, Italic"
+                    XAlign="Center"
+                    />
+            </StackLayout>
+            <StackLayout Grid.Row="2" HorizontalOptions="Center" WidthRequest="{OnPlatform iOS=300,Android=300}" Orientation="Vertical">
+
+                <Label
+                    Text="Nombre : "
+                    TextColor="Gray"
+                    FontSize="{OnPlatform Android=20}"
+                />
+                <Frame
+                HasShadow="{OnPlatform Android=true, iOS=false}"
+                Padding="{OnPlatform Android=0, iOS=0}"
+                CornerRadius="{OnPlatform Android=7}"
+                >
+                    <Entry
+                    Placeholder="Ingrese el nombre"
+                    MaxLength="25"
+                    PlaceholderColor="Gray"
+                    TextColor="Black"
+                    FontSize="{OnPlatform Android=20, iOS=16}"
+                    x:Name="txtnombre"
+                    />
+
+                </Frame>
+                <Label
+                    Text=""
+                    TextColor="Red"
+                    FontSize="{OnPlatform Android=15,iOS=23}"
+                    WidthRequest="300"
+                    x:Name="lblmensajenombre"
+                    />
+
+            </StackLayout>
+            <StackLayout Grid.Row="3" HorizontalOptions="Center" WidthRequest="{OnPlatform iOS=300,Android=300}" Orientation="Vertical">
+
+                <Label
+                    Text="Apellido : "
+                    TextColor="Gray"
+                    FontSize="{OnPlatform Android=20}"
+               
+                />
+                <Frame
+                HasShadow="{OnPlatform Android=true, iOS=false}"
+                Padding="{OnPlatform Android=0, iOS=0}"
+                CornerRadius="{OnPlatform Android=7}"
+                >
+                    <Entry
+                    Placeholder="Ingrese el apellido"
+                    MaxLength="25"
+                    PlaceholderColor="Gray"
+                    TextColor="Black"
+                    FontSize="{OnPlatform Android=20, iOS=16}"
+                    x:Name="txtapellido"
+                    />
+
+                </Frame>
+                <Label
+                    Text=""
+                    TextColor="Red"
+                    FontSize="{OnPlatform Android=15,iOS=23}"
+                    WidthRequest="300"
+                    x:Name="lblmensajeapellido"
+                    />
+
+            </StackLayout>
+
+            <StackLayout Grid.Row="4" HorizontalOptions="Center" WidthRequest="{OnPlatform iOS=300,Android=300}" Orientation="Vertical">
+                <Label
+                    Text="Altura : "
+                    TextColor="Gray"
+                    FontSize="{OnPlatform Android=20}"
+               
+                    />
+                <Frame
+                HasShadow="{OnPlatform Android=true, iOS=false}"
+                Padding="{OnPlatform Android=0, iOS=0}"
+                CornerRadius="{OnPlatform Android=7}"
+                >
+                    <Entry
+                    Placeholder="Altura"
+                    FontSize="{OnPlatform Android=20, iOS=16}"
+                    x:Name="txtaltura"
+                    PlaceholderColor="Gray"
+                    TextColor="Black"
+                    />
+
+
+                </Frame>
+                <Label
+                    Text=""
+                    TextColor="Red"
+                    FontSize="{OnPlatform Android=15,iOS=23}"
+                    WidthRequest="300"
+                    x:Name="lblmensajealtura"
+                    />
+
+            </StackLayout>
+            <StackLayout Grid.Row="5" HorizontalOptions="Center" WidthRequest="{OnPlatform iOS=300,Android=300}" Orientation="Vertical">
+                <Label
+                    Text="Peso : "
+                    TextColor="Gray"
+                    FontSize="{OnPlatform Android=20}"
+                    />
+                <Frame
+                HasShadow="{OnPlatform Android=true, iOS=false}"
+                Padding="{OnPlatform Android=0, iOS=0}"
+                CornerRadius="{OnPlatform Android=7}"
+                >
+                    <Entry
+                    Placeholder="Peso"
+                    MaxLength="25"
+                    FontSize="{OnPlatform Android=20, iOS=16}"
+                    x:Name="txtpeso"
+                    PlaceholderColor="Gray"
+                    TextColor="Black"    
+                    />
+
+                </Frame>
+                <Label
+                    Text=""
+                    TextColor="Red"
+                    FontSize="{OnPlatform Android=15,iOS=23}"
+                    WidthRequest="300"
+                    x:Name="lblmensajepeso"
+                    />
+
+            </StackLayout>
+
+
+            <StackLayout Grid.Row="6" HorizontalOptions="Center" WidthRequest="{OnPlatform iOS=200,Android=300}" Orientation="Vertical">
+
+                <Button Text="Guardar"
+                        TextColor="White"
+                        FontSize="{OnPlatform Android=15, iOS=12}"
+                        BackgroundColor="Transparent"
+                        BorderColor="ForestGreen"
+                        BorderWidth="1.5"
+                        CornerRadius="50"
+                        Clicked="Button_Clicked"
+                        />
+            </StackLayout>
+
+            <StackLayout Grid.Row="7" HorizontalOptions="Center" WidthRequest="{OnPlatform iOS=200,Android=300}" Orientation="Vertical">
+
+                <Button Text="Reporte"
+                        TextColor="White"
+                        FontSize="{OnPlatform Android=15, iOS=12}"
+                        BackgroundColor="Transparent"
+                        BorderColor="ForestGreen"
+                        BorderWidth="1.5"
+                        CornerRadius="50"
+                        Clicked="Button_ClickedReporte"
+                        />
+            </StackLayout>
+
+        </Grid>
+    </ContentPage.Content>
+
+</ContentPage>

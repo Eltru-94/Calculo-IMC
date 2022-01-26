@@ -1,0 +1,15 @@
+E:\LLACTA\Estudio\Programacion\Xamari\AppPeso\AppPeso\AppPeso\bin\Debug\netstandard2.0\AppPeso.deps.json
+E:\LLACTA\Estudio\Programacion\Xamari\AppPeso\AppPeso\AppPeso\bin\Debug\netstandard2.0\AppPeso.dll
+E:\LLACTA\Estudio\Programacion\Xamari\AppPeso\AppPeso\AppPeso\bin\Debug\netstandard2.0\ref\AppPeso.dll
+E:\LLACTA\Estudio\Programacion\Xamari\AppPeso\AppPeso\AppPeso\bin\Debug\netstandard2.0\AppPeso.pdb
+E:\LLACTA\Estudio\Programacion\Xamari\AppPeso\AppPeso\AppPeso\obj\Debug\netstandard2.0\AppPeso.csproj.AssemblyReference.cache
+E:\LLACTA\Estudio\Programacion\Xamari\AppPeso\AppPeso\AppPeso\obj\Debug\netstandard2.0\AppPeso.GeneratedMSBuildEditorConfig.editorconfig
+E:\LLACTA\Estudio\Programacion\Xamari\AppPeso\AppPeso\AppPeso\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\LLACTA\Estudio\Programacion\Xamari\AppPeso\AppPeso\AppPeso\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\LLACTA\Estudio\Programacion\Xamari\AppPeso\AppPeso\AppPeso\obj\Debug\netstandard2.0\AppPeso.AssemblyInfoInputs.cache
+E:\LLACTA\Estudio\Programacion\Xamari\AppPeso\AppPeso\AppPeso\obj\Debug\netstandard2.0\AppPeso.AssemblyInfo.cs
+E:\LLACTA\Estudio\Programacion\Xamari\AppPeso\AppPeso\AppPeso\obj\Debug\netstandard2.0\AppPeso.csproj.CoreCompileInputs.cache
+E:\LLACTA\Estudio\Programacion\Xamari\AppPeso\AppPeso\AppPeso\obj\Debug\netstandard2.0\XamlC.stamp
+E:\LLACTA\Estudio\Programacion\Xamari\AppPeso\AppPeso\AppPeso\obj\Debug\netstandard2.0\AppPeso.dll
+E:\LLACTA\Estudio\Programacion\Xamari\AppPeso\AppPeso\AppPeso\obj\Debug\netstandard2.0\ref\AppPeso.dll
+E:\LLACTA\Estudio\Programacion\Xamari\AppPeso\AppPeso\AppPeso\obj\Debug\netstandard2.0\AppPeso.pdb
